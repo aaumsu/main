@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <title>AAU MUSLIM STUDENTS UNION</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a id="logo" href="index.html"><img src="images/Logo.jpg" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hidemenu"></i>
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">COURSE</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu"></i>
+      </nav>
+      <div class="text-box">
+        <h1>Best National Muslim Jemea</h1>
+        <p>
+          AAU MUSLIM STUDENTS UNION is the successfull Jemeah with smart
+          students...
+        </p>
+        <a href="" class="btn">visit us to know more</a>
+      </div>
+    </section>
+
+    <!---------  Course  -------->
+
+    <section class="Course">
+      <h1>Courses We Offer</h1>
+      <p>lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+      <div class="row">
+        <div class="course-col">
+          <h3>Intermediate</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis
+            nulla nam libero pariatur deleniti ducimus quis et iste dolorem
+            soluta? Aut, deserunt. Quisquam rerum sequi ad error obcaecati,
+            harum nemo!
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Under graduate</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis
+            nulla nam libero pariatur deleniti ducimus quis et iste dolorem
+            soluta? Aut, deserunt. Quisquam rerum sequi ad error obcaecati,
+            harum nemo!
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Post Graduate</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis
+            nulla nam libero pariatur deleniti ducimus quis et iste dolorem
+            soluta? Aut, deserunt. Quisquam rerum sequi ad error obcaecati,
+            harum nemo!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--------our campus------->
+    <section class="Jemeah">
+      <h1>Our Global Jemeah</h1>
+      <p>lorem ipsum dolor sit amet, consectetur adipis</p>
+
+      <div class="row">
+        <div class="Jemeah-col">
+          <img src="images/pexels.jpg" />
+          <div class="layer">
+            <h3>6kilo</h3>
+          </div>
+        </div>
+        <div class="Jemeah-col">
+          <img src="images/johannes.jpg" />
+          <div class="layer">
+            <h3>5kilo</h3>
+          </div>
+        </div>
+        <div class="Jemeah-col">
+          <img src="images/pixabay.jpg" />
+          <div class="layer">
+            <h3>4kilo</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------Add Javascriptfor toggle menu-------->
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showmenu() {
+        navLinks.style.right = "0";
+      }
+      function hidemenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AAU - Muslim Students Union</title>
+    <link rel="icon" href="msu logo.png" type="image/png">
+    <link rel="stylesheet" href="main_style.css"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <label class="logo"><img id="menu-logo" src="msu logo.png" alt=""> AAU - MSU</label>
+        <ul>
+            <li><a class="active" href="https://aaumsu.weebly.com">Home</a></li>
+            <li><a href="https://aaumsu.weebly.com/resources">Resources</a></li>
+            <li><a href="https://aaumsu.weebly.com/projects">Projects</a></li>
+            <li><a href="https://aaumsu.weebly.com/about-us">About Us</a></li>
+            <li><a href="https://aaumsu.weebly.com/contact-us">Contact Us</a></li>
+        </ul>
+        <label id="icon"><i class="fas fa-bars"></i></label>
+    </nav>
+    <section></section>
+</body>
+
+<div class="copy">
+    <hr style="width: 30%; margin:auto;">
+    <small id="copyright">&copy;All rights reserved, AAU - Muslim Students Union</small>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+<script>
+    $(document).ready(function(){
+        $('#icon').click(function(){
+            $('ul').toggleClass('show')
+        });
+    });
+
+</script>
+</html>
